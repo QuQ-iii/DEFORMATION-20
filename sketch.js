@@ -11,6 +11,9 @@ function setup() {
   weight = random(400,1500);
 
   car.velocityX = speed;
+  
+  wall.depth = car.depth;
+  car.depth += 1;
 
 }
 
